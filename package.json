@@ -1,0 +1,33 @@
+{
+  "name": "my_class_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "_moduleAliases": {
+    "@config": "config",
+    "@models": "models"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dasvgen1997/my_class_test.git"
+  },
+  "author": "Dasvgen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dasvgen1997/my_class_test/issues"
+  },
+  "homepage": "https://github.com/Dasvgen1997/my_class_test#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "module-alias": "^2.2.3",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.5"
+  }
+}
